@@ -1,2 +1,24 @@
 <p>login works!</p>
 <button (click)="getName('mehedi')" >Ok cleck</button>
+
+<br><br><input type="text" #box (input)="getName(box.value)" placeholder="input type by console">
+
+<br><br><input type="text" #box1 (blur)="getName(box1.value)" placeholder="input type by console">
+
+
+<br><br><input type="text" #sow (input)="getshow(sow.value)" placeholder="input type by show value" name="name">
+
+<h2>the value is : {{place}}</h2>
+
+<h3>Click value print</h3>
+
+<br><br><input type="text" #sow1  placeholder="input type by show value" name="name">
+
+<button (click)="getshow(sow1.value)">click</button>
+<h2>the value is : {{place}}</h2>
+
+
+<h1> Value pas by text box</h1>
+<br><br><input type="text" value="{{nam}}"  disabled="{{val}}"  name="name" >
+
+<br><br><input type="text" [value]=nam name="name" [disabled]=val>

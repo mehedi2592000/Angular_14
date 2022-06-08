@@ -14,7 +14,18 @@ export class LoginComponent implements OnInit {
 
   getName(name:string)
   {
-    alert(name);
+    //alert(name);
+
+    console.warn(name);
   }
 
+place=" ";
+  getshow(sh:string)
+  {
+    console.warn(sh);
+    this.place=sh;
+  }
+
+nam="hasan";
+val=false;
 }
