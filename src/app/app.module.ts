@@ -4,10 +4,12 @@ import { UserAuthModule } from './user-auth/user-auth.module';
 import { AppComponent } from './app.component';
 import { ListComponent } from './list/list.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
-    ListComponent
+    ListComponent,
+
   ],
   imports: [
     BrowserModule,

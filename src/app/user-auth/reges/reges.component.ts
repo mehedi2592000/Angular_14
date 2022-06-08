@@ -14,4 +14,6 @@ export class RegesComponent implements OnInit {
 
 
   show="ok";
+
+  color="white";
 }

@@ -6,3 +6,12 @@
 <ng-template #elseBlock>
     Content to render when condition is false.
 </ng-template>
+
+<h1>Switch</h1>
+
+<div [ngSwitch]="color">
+    <h1 *ngSwitchCase="'red'" style="color:red;">Red color</h1>
+    <h1 *ngSwitchCase="'green'" style="color:green;">Red color</h1>
+    <h1 *ngSwitchCase="'yellow'" style="color:yellow;">Red color</h1>
+    <h1 *ngSwitchDefault>Unwonk data</h1>
+</div>
