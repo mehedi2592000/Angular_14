@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+import { UserAuthModule } from './user-auth/user-auth.module';
 import { AppComponent } from './app.component';
 import { ListComponent } from './list/list.component';
 
@@ -10,7 +10,8 @@ import { ListComponent } from './list/list.component';
     ListComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    UserAuthModule
   ],
   providers: [],
   bootstrap: [AppComponent]
